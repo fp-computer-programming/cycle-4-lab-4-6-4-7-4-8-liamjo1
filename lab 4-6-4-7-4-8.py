@@ -45,9 +45,9 @@ four = input ("next number")
 five = input ("next number")
 # Store all numbers as a single string with a space in between each numbers
 allnum = (f"{one} {two} {three} {four} {five}") 
-# (i.e num_string = ‘1 2 3 4 5’). Print this string. Using string methods, 
+# (i.e num_string = ‘1 2 3 4 5’). Print this string. Using string methods,{}  
 print (allnum)
-# extract the smallest and largest number from the string & print them,
+# Take the smallest and the largest number in the string and print each one
 i=0
 big = int(allnum[0])
 small = int(allnum[0])
@@ -64,7 +64,7 @@ while i < len(allnum):
 print("smallest number is")
 print(small)    
 # with a label (i.e smallest num given was 1). 
-# Print the product of the two numbers you have extracted, with a label (i.e. the product of the two numbers extracted was 5).
+# Print the product of the two numbers you have pulled out from the string and include a label (i.e. the product of the two numbers extracted was 5).
 print("the product of the two numbers is")
 print(big + small)
 #___________________________________________________
